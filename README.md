@@ -12,7 +12,7 @@ clf.fit(X,y)
 
 clf.predict(X_test)
 
-clf.summary(feature_names)              #if fit_intercept = False
+clf.summary(feature_names)
 
 ````
 
