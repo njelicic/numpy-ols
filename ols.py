@@ -34,6 +34,10 @@ class OLS():
     
     def summary(self,names):
         print('OLS Summary\n\nVariable\tCoefficient')
+        
+        if self.fit_intercept:
+            names.append('const')
+        
         for n,w in zip(names, self.W):
             print(f'{n}\t{w}' )
         self.score()
