@@ -1,5 +1,5 @@
 # numpy-ols
-Ordinary Least Squares in just NumPy. Follows the Sklearn API. Results should be the same. 
+Ordinary Least Squares in just NumPy. Follows the Sklearn API. 
 
 # Usage:
 
