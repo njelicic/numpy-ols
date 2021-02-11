@@ -1,5 +1,5 @@
 class OLS():    
-    """"My own Ordinary Least Squares Class"""    
+    """"Custom Ordinary Least Squares Class"""    
     def __init__(self,fit_intercept=True):
         self.fit_intercept = fit_intercept
         return
