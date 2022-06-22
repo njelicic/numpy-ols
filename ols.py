@@ -1,3 +1,5 @@
+import numpy as np
+
 class OLS():    
     """"Custom Ordinary Least Squares Class"""    
     def __init__(self,fit_intercept=True):
